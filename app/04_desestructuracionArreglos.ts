@@ -35,7 +35,7 @@
     console.log(tercero);
     
     //forma estructurada
-    const extraerArr = ( [jhon, alfonso, gomez]: string[] ) {
+    const extraerArr = ( [jhon, alfonso, gomez]: string[] ) => {
         console.log( jhon );
         console.log( alfonso );
         console.log( gomez );
