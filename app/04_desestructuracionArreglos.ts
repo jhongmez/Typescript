@@ -12,12 +12,12 @@
         poder: 'Volar'
     }
 
-    // Desestructuracion de objetos
+    // Desestructuracion de objetos simple
     const { nombre, clave, poder } = avenger;
     console.log( nombre, poder );
     
 
-    //Desestructuracion objeto
+    //Desestructuracion objeto estructurada
     const extraer = ( {nombre, poder}: any ) => {
         console.log( nombre, poder );
     }

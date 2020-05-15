@@ -11,10 +11,10 @@
         clave: 'Capitán América',
         poder: 'Volar'
     };
-    // Desestructuracion de objetos
+    // Desestructuracion de objetos simple
     var nombre = avenger.nombre, clave = avenger.clave, poder = avenger.poder;
     console.log(nombre, poder);
-    //Desestructuracion objeto
+    //Desestructuracion objeto estructurada
     var extraer = function (_a) {
         var nombre = _a.nombre, poder = _a.poder;
         console.log(nombre, poder);
