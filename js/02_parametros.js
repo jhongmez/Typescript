@@ -1,12 +1,11 @@
 "use strict";
 (function () {
-    function activar(quien, momento, objeto) {
-        if (objeto === void 0) { objeto = 'batiseñal'; }
+    function activar(quien, momento, objeto = 'batiseñal') {
         if (momento) {
-            console.log(quien + " activ\u00F3 la " + objeto + " " + momento);
+            console.log(`${quien} activó la ${objeto} ${momento}`);
         }
         else {
-            console.log(quien + " activ\u00F3 la " + objeto);
+            console.log(`${quien} activó la ${objeto}`);
         }
     }
     activar('Gordon');

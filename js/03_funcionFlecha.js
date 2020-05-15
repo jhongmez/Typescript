@@ -1,19 +1,18 @@
 "use strict";
 (function () {
     //Funcion normal
-    var miFuncion = function (a) {
+    let miFuncion = function (a) {
         return a.toUpperCase();
     };
     //Funcion flecha
-    var miFuncionF = function (a) { return a.toUpperCase(); };
+    const miFuncionF = (a) => a.toUpperCase();
     //Operaciones
-    var sumarN = function (a, b) { return a + b; };
-    var hulk = {
+    const sumarN = (a, b) => a + b;
+    const hulk = {
         nombre: 'hulk',
-        smash: function () {
-            var _this = this;
-            setTimeout(function () {
-                console.log(_this.nombre + " smash!!");
+        smash() {
+            setTimeout(() => {
+                console.log(`${this.nombre} smash!!`);
             }, 1000);
         }
     };
